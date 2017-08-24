@@ -7,14 +7,14 @@ var Saved = React.createClass({
         return { data: [] };
     },
 
-    // waiting for the page to load so it can grab the database information so it can save it in the state for the display
+    // grab the database information so it can save it for the display
     componentDidMount: function () {
         $.get("/api/saved").done((result) => {
             this.setState({ data: result });
         });
     },
 
-    //this will delete unique items in the database. 
+    //this will delete items in the database. 
     deleteBtn: function () {
         $.ajax({
             url: "/api/saved/" + this.props.id, type: 'DELETE', success: (result) => {

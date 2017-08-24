@@ -3,7 +3,7 @@ var React = require("react");
 var Query = require("./grandchildren/Query")
 
 // Creating a variable for the NYT api key I signed up for, so that we can run searches. 
-var queryURLOrigin = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=2a9034b2906e4db3978188e3cf62f890&q=";
+var queryURLOrigin = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=0319e93e7918435eb4b38af46e8cd5cf=";
 
 //Creating a Search component using es5, writing various functions that we will call later on in the component. 
 var Search = React.createClass({

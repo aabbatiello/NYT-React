@@ -1,8 +1,11 @@
+// Include React
 var React = require("react");
 
-//Creating a component for our saved data. 
+//Creating a component 
 var Query = React.createClass({
-    //Creating a function when a user clicks the delete button in the saved articles section. 
+
+    //delete button/ saved aritcle
+
     deleteBtn: function() {
         $.ajax({url: "/api/saved/" + this.props.id, type: "DELETE", success: (result) => {
             if (result) {
@@ -12,7 +15,7 @@ var Query = React.createClass({
             }
         }})
     },
-    // Rendering the saved articles for the user
+    // showing saved articles for the user
     render: function() {
         return (
             <div className = "panel-body">
@@ -40,5 +43,7 @@ var Query = React.createClass({
         );
     }
 });
+
+// Export the component back for use in other files
 
 module.exports = Query;

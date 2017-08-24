@@ -1,9 +1,11 @@
-//Requring the react library.
+// Include React
 var React = require("react");
 
-// Creating our Query component with functions to be run later. 
+
+//Creating a component 
+
 var Query = React.createClass({
-    //Here, we are creating a function that will fire when the button is clicked to save the article, 
+    //function to save the article, 
     saveBtn: function () {
         var obj = {
             title: this.props.title,
@@ -14,7 +16,7 @@ var Query = React.createClass({
         $.post("/api/saved", obj);
         $("#" + this.props.index).empty();
     },
-    //Rendering our Query component (panel bodies to be saved or not saved.)
+    //showing saved articles for the user to be saved or not saved.)
     render: function() {
         return (
             <div id={this.props.index}>
@@ -44,6 +46,6 @@ var Query = React.createClass({
         );
     }
 });
+// Export the component back for use in other files
 
-//Exporting for other use. 
 module.exports = Query;

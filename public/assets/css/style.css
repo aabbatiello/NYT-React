@@ -1,12 +1,11 @@
 * {
-	border-radius: 0 !important;
+	border-radius: 0;
 }
 
 h1{
 	text-align: center;
 }
 
-/*Incorporating google font that was imported for all titles.*/
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -22,12 +21,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .panel-heading{
-	background-color: #333333 !important;
-	border-color: #333333 !important;
+	background-color: #333333;
+	border-color: #333333;
 }
 
 .panel-body{
-	border-color: #333333 !important;
+	border-color: #333333;
 }
 
 .panel-primary {
@@ -37,8 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn{
 	margin-right: 2px;
-	background-color: #555555 !important;
-	border-color: #555555 !important;
+	background-color: #555555;
+	border-color: #555555;
 }
 
 .row{
