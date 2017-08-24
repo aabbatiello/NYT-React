@@ -1,0 +1,54 @@
+* {
+	border-radius: 0 !important;
+}
+
+h1{
+	text-align: center;
+}
+
+/*Incorporating google font that was imported for all titles.*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+#button{
+	font-family: 'Raleway', sans-serif;
+}
+.jumbotron{
+	background-color: #333333;
+	color: white;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.panel-heading{
+	background-color: #333333 !important;
+	border-color: #333333 !important;
+}
+
+.panel-body{
+	border-color: #333333 !important;
+}
+
+.panel-primary {
+	border-color: #333333;
+}
+
+
+.btn{
+	margin-right: 2px;
+	background-color: #555555 !important;
+	border-color: #555555 !important;
+}
+
+.row{
+	border-bottom: solid;
+	border-color: #333333;
+}
+
+.label{
+	margin-right: 4px;
+}
+.saveBtn{
+	margin-top: 20px;
+}
