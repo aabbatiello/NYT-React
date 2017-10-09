@@ -6,4 +6,4 @@ https://polar-cliffs-33503.herokuapp.com/#/Search?_k=u4ipxc
 
 
 
-![alt text](https://raw.githubusercontent.com/aabbatiello/nyt-react/master/public/assets/css/HW_Assignment.png)
+![alt text](https://raw.githubusercontent.com/aabbatiello/nyt-react/master/public/assets/css/screenshot.png)
